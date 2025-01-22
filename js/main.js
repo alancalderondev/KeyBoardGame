@@ -1,7 +1,8 @@
-import Header from "./components/Header";
-import KeyBoard from "./components/keyboard";
+import Header from "../components/Header";
+import KeyBoard from "../components/keyboard";
 
 customElements.define('header-section',Header);
+console.log("main.js cargado");
 
 const headerElement = document.querySelector('header-section');
 if(headerElement){
